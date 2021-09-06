@@ -34,7 +34,7 @@ var questions = [{
 ];
 
 function welcome() {
- var userName = readlineSync.question("Hey enter you name: ");
+ var userName = readlineSync.question("Hey, please enter you name: ");
 
   console.log("Welcome "+ userName + " let's play a game of guessing TV Series or movies..");
 }
